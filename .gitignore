@@ -99,4 +99,3 @@ docs/.DS_Store
 ignore/
 
 # SQLite databases
-database/*.db
