@@ -69,6 +69,41 @@ parameters rpcuser and rpcpassword needs to be replaced
 Clone the Sentinel repo and install Python dependencies.    
 
 
+### 2.b. remove old files
+Enter the wallet folder and stop the wallet
+
+    ./crowdcoin-cli stop 
+    
+Enter the crowdcoin config folder mentioned during the installation
+    
+    rm mncache.dat
+    rm mnpayments.dat
+    
+Enter the wallet folder and restart the wallet 
+
+    ./crowdcoind -daemon -reindex
+    
+Check the sync status
+
+    watch ./crowdcoin-cli mnsync status
+
+As soon as you see the following response press CTRL+C
+
+    ./crowdcoin-cli mnsync status
+    {
+    "AssetID": 999,
+    "AssetName": "MASTERNODE_SYNC_FINISHED",
+    "Attempt": 0,
+    "IsBlockchainSynced": true,
+    "IsMasternodeListSynced": true,
+    "IsWinnersListSynced": true,
+    "IsSynced": true,
+    "IsFailed": false
+    }
+
+Finally start the masternode
+
+    ./crowdcoin-cli masternode start
 
 
 ### 3. Set up Cron
