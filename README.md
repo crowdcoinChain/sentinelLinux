@@ -56,15 +56,15 @@ parameters rpcuser and rpcpassword needs to be replaced
     staking=0
     discover=1
 
-   addnode=84.17.23.43:12875
-   addnode=18.220.138.90:12875
-   addnode=86.57.164.166:12875
-   addnode=86.57.164.146:12875
-   addnode=18.217.78.145:12875
-   addnode=23.92.30.230:12875
-   addnode=35.190.182.68:12875
-   addnode=80.209.236.4:12875
-   addnode=91.201.40.89:12875
+    addnode=84.17.23.43:12875
+    addnode=18.220.138.90:12875
+    addnode=86.57.164.166:12875
+    addnode=86.57.164.146:12875
+    addnode=18.217.78.145:12875
+    addnode=23.92.30.230:12875
+    addnode=35.190.182.68:12875
+    addnode=80.209.236.4:12875
+    addnode=91.201.40.89:12875
 
                           
 
