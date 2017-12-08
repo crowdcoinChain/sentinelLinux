@@ -56,14 +56,16 @@ parameters rpcuser and rpcpassword needs to be replaced
     staking=0
     discover=1
 
-    addnode=80.209.235.89:12875
-    addnode=212.24.104.67:12875
-    addnode=195.181.245.127:12875
-    addnode=109.235.65.47:12875
-    addnode=136.243.89.142:12875
-    addnode=13.58.35.83:12875
-    addnode=86.57.164.146:12875
-    addnode=35.185.4.126:12875
+   addnode=84.17.23.43:12875
+   addnode=18.220.138.90:12875
+   addnode=86.57.164.166:12875
+   addnode=86.57.164.146:12875
+   addnode=18.217.78.145:12875
+   addnode=23.92.30.230:12875
+   addnode=35.190.182.68:12875
+   addnode=80.209.236.4:12875
+   addnode=91.201.40.89:12875
+
                           
 
 Clone the Sentinel repo and install Python dependencies.    
