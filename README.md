@@ -65,6 +65,7 @@ parameters rpcuser and rpcpassword needs to be replaced
     addnode=35.190.182.68:12875
     addnode=80.209.236.4:12875
     addnode=91.201.40.89:12875
+    addnode=54.36.163.216:12875
 
                           
 
