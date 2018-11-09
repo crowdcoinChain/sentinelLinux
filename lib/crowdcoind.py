@@ -15,7 +15,7 @@ import time
 
 class CrowdcoinDaemon():
     def __init__(self, **kwargs):
-        host = kwargs.get('host', '127.0.0.1')
+        host = kwargs.get('bind')
         user = kwargs.get('user')
         password = kwargs.get('password')
         port = kwargs.get('port')
