@@ -17,9 +17,9 @@ min_crowdcoind_proto_version_with_sentinel_ping = 70207
 def get_crowdcoin_conf():
     home = os.environ.get('HOME')
 
-    crowdcoin_conf = os.path.join(home, ".crowdcoincore/crowdcoin.conf")
+    crowdcoin_conf = os.path.join(home, ".crowdcoinbrain/crowdcoin.conf")
     if sys.platform == 'darwin':
-        crowdcoin_conf = os.path.join(home, "Library/Application Support/CrowdcoinCore/crowdcoin.conf")
+        crowdcoin_conf = os.path.join(home, "Library/Application Support/CrowdcoinBrain/crowdcoin.conf")
 
     crowdcoin_conf = sentinel_cfg.get('crowdcoin_conf', crowdcoin_conf)
 

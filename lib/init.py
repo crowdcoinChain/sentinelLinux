@@ -96,7 +96,7 @@ def main():
         sys.exit(1)
 
     if not has_crowdcoin_conf():
-        print("CrowdcoinCore must be installed and configured, including JSONRPC access in crowdcoin.conf")
+        print("CrowdcoinBrain must be installed and configured, including JSONRPC access in crowdcoin.conf")
         sys.exit(1)
 
 

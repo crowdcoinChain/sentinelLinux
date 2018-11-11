@@ -132,7 +132,7 @@ To view debug output, set the `SENTINEL_DEBUG` environment variable to anything 
 
 ## Contributing
 
-Please follow the [CrowdcoinCore guidelines for contributing](https://github.com/crowdcoinpay/crowdcoin/blob/v0.12.1.x/CONTRIBUTING.md).
+Please follow the [CrowdcoinBrain guidelines for contributing](https://github.com/crowdcoinpay/crowdcoin/blob/v0.12.1.x/CONTRIBUTING.md).
 
 Specifically:
 
@@ -150,4 +150,4 @@ Specifically:
 
 ### License
 
-Released under the MIT license, under the same terms as CrowdcoinCore itself. See [LICENSE](LICENSE) for more info.
+Released under the MIT license, under the same terms as CrowdcoinBrain itself. See [LICENSE](LICENSE) for more info.

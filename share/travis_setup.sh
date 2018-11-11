@@ -1,9 +1,9 @@
 #!/bin/bash
 set -evx
 
-mkdir ~/.crowdcoincore
+mkdir ~/.crowdcoinbrain
 
 # safety check
-if [ ! -f ~/.crowdcoincore/.crowdcoin.conf ]; then
-  cp share/crowdcoin.conf.example ~/.crowdcoincore/crowdcoin.conf
+if [ ! -f ~/.crowdcoinbrain/.crowdcoin.conf ]; then
+  cp share/crowdcoin.conf.example ~/.crowdcoinbrain/crowdcoin.conf
 fi
