@@ -56,7 +56,7 @@ parameters rpcuser and rpcpassword needs to be replaced
     staking=0
     discover=1
 
-    addnode=54.36.163.216:12875
+    addnode=54.36.163.216:8585
 
                           
 
