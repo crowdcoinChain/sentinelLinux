@@ -16,12 +16,12 @@ def test_crowdcoind():
     config_text = CrowdcoinConfig.slurp_config_file(config.crowdcoin_conf)
     network = 'mainnet'
     is_testnet = False
-    genesis_hash = u'000007db550074c6535ce41c2a6043d0afbc86f17f1762b06e2cd65d100f7b5f'
+    genesis_hash = u'0000006f3f7f60bf9fac87e30384c52f7cf7a65bf468f018cab8507e380af8c7'
     for line in config_text.split("\n"):
         if line.startswith('testnet=1'):
             network = 'testnet'
             is_testnet = True
-            genesis_hash = u'00000a8d0db898c786060f839e63529700bd00e4708b028206a8a60f391566d8'
+            genesis_hash = u'000000be89e7ceb515258698012f4d0ac7846980969515fdf2771cda7e0eae68'
 
     creds = CrowdcoinConfig.get_rpc_creds(config_text, network)
     crowdcoind = CrowdcoinDaemon(**creds)
